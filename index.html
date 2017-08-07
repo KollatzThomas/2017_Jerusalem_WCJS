@@ -78,6 +78,7 @@
                 <h4><strong>Linked Open Data in Jewish Studies </strong></h4>
                 <h1 class="down-100">Sharing Data</h1>
                 <h2 class="red up-25">The Case of Jewish Funerary Inscriptions Databases</h2>
+                <p class="down-50"><span class="highlight">penultimate version</span></p>
                 <h5 class="down-100">
                     <strong>Data: </strong><a
                         href="https://github.com/KollatzThomas/2017_Jerusalem_WCJS"
@@ -97,29 +98,23 @@
                     <a href="https://github.com/kollatzthomas/" title="Thomas Kollatz on GitHub"
                         >KollatzThomas</a> | <a href="https://creativecommons.org/licenses/by/4.0/"
                         >CC-BY 4.0</a>
-                    <br />Mainz – Academy of Science and Literature / Digital Academy <br />Essen
+                    <br />Mainz – Academy of Science and Literature | Digital Academy <br />Essen
                     – Steinheim-Institute for German-Jewish History </h5>
             </div>
-            <!--
             <div class="step">
                 <h2>Table of Contents</h2>
-                <ol class="line-height-one-five">
-                    <li> what </li>
-                    <li> how </li>
-                    <li> why </li>
-                </ol>
+                <dl class="line-height-one-five">
+                    <dt class="red">01</dt>
+                    <dd>databases &amp; structured access</dd>
+                    <dt class="red">02</dt>
+                    <dd>formats &amp; standards</dd>
+                    <dt class="red">03</dt>
+                    <dd>linked open data &amp; sharing</dd>
+                </dl>
             </div>
-            -->
             <div class="step">
                 <h2 class="red">01</h2>
-                <h3>Databases</h3>
-            </div>
-            <div class="step">
-                <blockquote>
-                    Me and my database papers
-                    
-                    Susan Hockey – 
-                </blockquote>
+                <h3>databases &amp; structured access</h3>
             </div>
             <div class="step">
                 <h2 class="red">Epigraphic databases</h2>
@@ -127,7 +122,7 @@
                     <thead>
                         <tr>
                             <td></td>
-                            <td><h4>Inscriptions of Israel/Palestine</h4></td>
+                            <td><h4>Inscriptions of Israel | Palestine</h4></td>
                             <td><h4>epidat – Database of Jewish Epigraphy</h4></td>
                         </tr>
                     </thead>
@@ -137,8 +132,8 @@
                             <td colspan="2">
                                 <div id="researchdata" style="display:none;">
                                     <a href="http://cds.library.brown.edu/projects/Inscriptions">
-                                        <img alt="IIP" src="resources/img/IIP.png"
-                                            data-image="resources/img/IIP.png"
+                                        <img alt="IIP" src="resources/img/iip.png"
+                                            data-image="resources/img/iip.png"
                                             data-description="Screenshot by Thomas Kollatz, CC-BY 4.0 (http://creativecommons.org/licenses/by/4.0/)"
                                             style="display:none" />
                                     </a>
@@ -153,426 +148,435 @@
                         </tr>
                         <tr>
                             <td><strong>inscriptions</strong></td>
-                            <td>3423</td>
-                            <td>33.000</td>
+                            <td><a
+                                    href="http://library.brown.edu/search/solr_pub/iip/?q=*%3A*&amp;start=0&amp;rows=0&amp;indent=on&amp;facet=on&amp;facet.field=religion&amp;wt=json"
+                                    >3.423</a></td>
+                            <td><a href="http://steinheim-institut.de/cgi-bin/epidat?info=peranno"
+                                    >33.000</a></td>
                         </tr>
                         <tr>
                             <td><strong>time</strong></td>
                             <td>500 BCE - 640 CE</td>
-                            <td>mid 11<sup>th</sup> - 20<sup>th</sup> century</td>
+                            <td>mid 11<sup>th</sup> - 20<sup>th</sup> century CE</td>
                         </tr>
                         <tr>
                             <td><strong>space</strong></td>
-                            <td>Israel/Palestine</td>
+                            <td>Israel | Palestine</td>
                             <td>Germany | Netherlands | Czechia | Lithunia</td>
                         </tr>
                         <tr>
                             <td><strong>content</strong></td>
-                            <td>mixed content</td>
+                            <td>different types of inscriptions</td>
                             <td>funerary inscriptions</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <div class="step">
+                <h2 class="red centered">IIP – access options</h2>
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-hash="/step-5/substep-1">
+                            <div class="six columns first">
+                                <a href="resources/img/access_options_iip.png">
+                                    <img class="pull-up" src="resources/img/access_options_iip.png"
+                                        style="width:100%" />
+                                </a>
+                                <p class="centered pull-up">
+                                    <a href="http://library.brown.edu/cds/projects/iip/search/"
+                                        title="search"
+                                        >http://library.brown.edu/cds/projects/iip/search/</a>
+                                </p>
+                            </div>
+                            <div class="six columns last">
+                                <h5><strong>Search</strong></h5>
+                                <ul class="even-left medium">
+                                    <li> via text</li>
+                                    <li> via indices </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-hash="/step-5/substep-2">
+                            <div class="six columns first">
+                                <a href="resources/img/iip_text_search.png" title="text_search">
+                                    <img class="pull-up" src="resources/img/iip_text_search.png"
+                                        style="width:100%" />
+                                </a>
+                                <p class="centered pull-up">
+                                    <a href="http://library.brown.edu/cds/projects/iip/search/"
+                                        >http://library.brown.edu/cds/projects/iip/search/</a>
+                                </p>
+                            </div>
+                            <div class="six columns last">
+                                <h5><strong>text-based search</strong></h5>
+                                <ul class="even-left medium">
+                                    <li> text | translation </li>
+                                    <li> description | place | id </li>
+                                    <li> figures </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-hash="/step-5/substep-3">
+                            <div class="six columns first">
+                                <a href="resources/img/iip_index_search.png">
+                                    <img class="pull-up" src="resources/img/iip_index_search.png"
+                                        style="width:100%" />
+                                </a>
+                                <p class="centered pull-up">
+                                    <a href="http://library.brown.edu/cds/projects/iip/search/"
+                                        title="search"
+                                        >http://library.brown.edu/cds/projects/iip/search/</a>
+                                </p>
+                            </div>
+                            <div class="six columns last">
+                                <h5><strong>index-based search</strong></h5>
+                                <ul class="even-left medium line-height-one-five">
+                                    <li> places</li>
+                                    <li> dates </li>
+                                    <li> type of Inscription</li>
+                                    <li> form of Inscription | physical Type</li>
+                                    <li> language </li>
+                                    <li> religion </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div class="step">
+                <h2 class="red centered">epidat – access options</h2>
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-hash="/step-6/substep-1">
+                            <div class="six columns first">
+                                <a href="resources/img/epidat_access_options.png">
+                                    <img class="pull-up"
+                                        src="resources/img/epidat_access_options.png"
+                                        style="width:100%" />
+                                </a>
+                                <p class="centered pull-up">
+                                    <a
+                                        href="http://steinheim-institut.de/cgi-bin/epidat?lang=en#opt"
+                                        title="access options"
+                                        >http://steinheim-institut.de/cgi-bin/epidat</a>
+                                </p>
+                            </div>
+                            <div class="six columns last">
+                                <h5><strong>Browse</strong></h5>
+                                <ul class="even-left medium line-height-one-five">
+
+                                    <li> chronological<ul>
+                                            <li>by year</li>
+                                            <li>by period</li>
+                                        </ul>
+                                    </li>
+                                    <li> topographical<ul>
+                                            <li>by place</li>
+                                            <li>by region</li>
+                                            <li>by map</li>
+                                        </ul></li>
+                                    <li> visual – by images </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-hash="/step-6/substep-2">
+                            <div class="six columns first">
+                                <a href="resources/img/epidat_fulltext_search.png">
+                                    <img class="pull-up"
+                                        src="resources/img/epidat_fulltext_search.png"
+                                        style="width:100%" />
+                                </a>
+                                <p class="centered pull-up">
+                                    <a
+                                        href="http://www.steinheim-institut.de/cgi-bin/epidat?beg=&amp;end=&amp;sel=ad2%27aha%27alt%27ans%27ar1%27asc%27bme%27arl%27bay%27bee%27c02%27bng%27blr%27sb3%27bom%27gda%27gdn%27bnm%27bns%27bor%27hrs%27wal%27e51%27bri%27alm%27mad%27e01%27e99%27e02%27brh%27che%27c01%27dds%27din%27e03%27e04%27ap2%27ap1%27dor%27hoe%27c03%27du2%27du3%27du4%27du1%27du6%27du5%27erc%27erf%27wsw%27seg%27est%27wrd%27kuc%27ffb%27ffs%27ffh%27frd%27e05%27e52%27gsk%27gws%27e10%27e11%27e12%27e13%27e14%27hgl%27hgw%27hb2%27hbs%27hha%27hht%27hmr%27hdh%27hnn%27hns%27hlh%27blu%27hen%27hld%27hos%27hxf%27c05%27ils%27imr%27ihl%27iis%27irw%27igw%27e06%27jen%27e17%27e18%27e19%27kal%27e20%27kob%27kwr%27e21%27e22%27kre%27e23%27e42%27e43%27wnk%27lag%27lau%27lin%27mz2%27e25%27sb1%27msn%27min%27e26%27e31%27e30%27e29%27e27%27e28%27mlh%27mue%27e32%27e41%27sb5%27e33%27c06%27obh%27obl%27obw%27oer%27ora%27sb0%27l06%27pro%27que%27reg%27rex%27bbr%27e54%27e53%27e34%27e35%27rth%27oes%27sbs%27sb2%27sb9%27sb6%27l08%27srm%27e09%27e16%27smk%27st3%27e36%27sgb%27e58%27sdh%27sts%27spy%27sb7%27sb8%27sb4%27roe%27e37%27e44%27e60%27e61%27l07%27e38%27e39%27e40%27lom%27ver%27e07%27e08%27win%27wrm%27hdf&amp;sm=AND&amp;check=1&amp;wo=edueb&amp;suche=Jerusalem+*%E2%80%8E%E2%80%8Fירושלי%E2%80%8F%E2%80%8E%3F&amp;function=suche&amp;anzeige=ffb&amp;lang=en"
+                                        title="access options"
+                                        >http://steinheim-institut.de/cgi-bin/epidat</a>
+                                </p>
+                            </div>
+                            <div class="six columns last">
+                                <h5><strong>Access</strong></h5>
+                                <ul class="even-left medium line-height-one-five">
+
+                                    <li> via full-text search </li>
+                                    <li> via indices<ul>
+                                            <li><a
+                                                  href="http://www.steinheim-institut.de/cgi-bin/epidat?info=index&amp;lang=en&amp;anzeige=stm&amp;view=lfh#lfh"
+                                                  >artists and stonemasons</a></li>
+                                            <li><a
+                                                  href="http://www.steinheim-institut.de/cgi-bin/epidat?info=index&amp;anzeige=memorials&amp;lang=en"
+                                                  >memorials</a></li>
+                                            <li><a
+                                                  href="http://www.steinheim-institut.de/cgi-bin/epidat?info=index&amp;anzeige=symbols&amp;lang=en"
+                                                  >symbols</a><ul>
+                                                  <li>ornaments</li>
+                                                  <li>house-symbols</li>
+                                                </ul></li>
+                                            <li>persons</li>
+                                            <li>languages</li>
+                                            <li>words and abbrevations</li>
+                                            <li>quotations</li>
+                                        </ul></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-hash="/step-6/substep-3">
+                            <div class="six columns first">
+                                <a href="resources/img/lilies_Geo-Browser.png">
+                                    <img class="pull-up" src="resources/img/lilies_Geo-Browser.png"
+                                        style="width:100%" />
+                                </a>
+                                <p class="centered pull-up">
+                                    <a
+                                        href="http://steinheim-institut.de/cgi-bin/epidat?lang=en#opt"
+                                        title="access options"
+                                        >http://steinheim-institut.de/cgi-bin/epidat</a>
+                                </p>
+                            </div>
+                            <div class="six columns last">
+                                <h5><strong>Analyze /w embedded webservices </strong></h5>
+                                <ul class="even-left medium line-height-one-five">
+
+                                    <li> for visualization <ul>
+                                            <li><a
+                                                  href="http://www.steinheim-institut.de/cgi-bin/epidat?info=geobrowser&amp;lang=en"
+                                                  >DARIAH-DE Geo-Browser</a></li>
+                                        </ul></li>
+                                    <li> for annotation<ul>
+                                            <li>DARIAH-DE Annotation Service</li>
+                                        </ul></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div class="step">
+                <h2 class="red">02</h2>
+                <h3>data &amp; standards</h3>
+            </div>
+            <div class="step">
+                <h2 class="red ">shared format</h2>
+                <h3 class="centered"><span class="red ">☞</span> one format for (two) epigraphic
+                    databases </h3>
+                <h4 class="centered red">EpiDoc: Epigraphic documents in TEI XML</h4>
+                <table>
+                    <colgroup>
+                        <col style="width:50%" />
+                        <col style="width:50%" />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th class="medium">IIP</th>
+                            <th class="medium">epidat</th>
+                        </tr>
+                    </thead>
+
+                    <tr class="small">
+                        <td><em>The texts are extensively marked-up as part of their addition to the
+                                database. We are using the <span class="highlight">Epidoc schema and
+                                    Guidelines</span> to mark up our inscriptions. Epidoc is a
+                                customization of the Text Encoding Initiative schema that was
+                                developed specifically for marking up inscribed objects. Rather than
+                                treating the text as the primary object (with the goal of moving it
+                                relatively easily to publication), our mark-up treats the inscribed
+                                object as primary.</em></td>
+                        <td><em>epidat records are provided in different data-formats<br />as
+                                html<br />as <span class="highlight">EpiDoc: Epigraphic Documents in
+                                    TEI XML</span><br />as plain text</em></td>
+                    </tr>
+                    <tr class="small">
+                        <td>
+                            <em>Inscriptions may be accessed via an <a
+                                    href="http://cds.library.brown.edu/projects/Inscriptions/IIP-api.shtml"
+                                    >API</a></em>
+                        </td>
+                        <td><em>epidat records are machine-readable and can be harvested, <a
+                                    href="http://steinheim-institut.de/cgi-bin/epidat?info=howtoharvest"
+                                    >How to harvest epidat records</a></em></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="step">
+                <h2 class="red">definitions</h2>
+            </div>
+            <div class="step">
+                <h2 class="red centered">What is XML</h2>
+                <div>
+                    <dl class="medium">
+                        <dt class="red">XML</dt>
+                        <dd>Extensible Markup Language </dd>
+                    </dl>
+                    <ul class="line-height-one-five down-50">
+                        <li>semantic in stead of typography</li>
+                        <li>device-independent and system-independent storing and processing of
+                            texts in electronic form</li>
+                        <li>interchange and communication format </li>
+                    </ul>
+                    <blockquote class="medium down-50"> Generalizing … we define markup, or
+                        (synonymously) encoding, as any means of making explicit an interpretation
+                        of a text. </blockquote>
+                    <p class="right x-small">
+                        <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html">A
+                            Gentle Introduction to XML</a></p>
+                </div>
+            </div>
+            <div class="step">
+                <h2 class="red centered">What is TEI XML</h2>
+                <dl class="medium">
+                    <dt class="red">TEI</dt>
+                    <dd>Text Encoding Initiative</dd>
+                </dl>
+                <blockquote class="medium down-50">[The TEI] is a consortium which collectively
+                    develops and maintains a <span class="highlight">standard for the representation
+                        of texts in digital form</span>. Its chief deliverable is a set of
+                    Guidelines which specify encoding methods for machine-readable
+                    texts<!--, chiefly in the
+                                humanities, social sciences and linguistics.-->
+                </blockquote>
+                <p class="right x-small"><a href="http://www.tei-c.org">http://www.tei-c.org</a></p>
+            </div>
+            <div class="step">
+                <h2 class="red">TEI delivers Guidelines</h2>
                 <div class="mfp-lightbox row">
                     <p>
-                        <img src="resources/img/epidat_whatisit.png" />
+                        <a href="resources/img/tei-c.png"><img
+                                src="resources/img/TEI_Guidelines.png" /></a>
                     </p>
-                </div>
-                <div class="down-100"><p class="x-small"><a
-                            href="http://steinheim-institut.de/cgi-bin/epidat"
-                            >http://steinheim-institut.de/cgi-bin/epidat</a></p></div>
-            </div>
-            <!-- 
-            <div class="step">
-                <h1 class="red">01</h1>
-                <h2 class="line-height-one-five"> what </h2>
-            </div>
-            -->
-            <div class="step">
-                <h2 class="red">History and Scope</h2>
-                <div class="row">
-                    <div class="six columns">
-                        <ul class="line-height-one-five">
-                            <li>developed since 2002</li>
-                            <li>online since 2006</li>
-                            <li>driven by projects</li>
-                        </ul>
-                        <div class="mfp-lightbox row">
-                            <a href="resources/img/chart.png"><img src="resources/img/chart.png"
-                                 /></a>
-                        </div>
-                    </div>
-                    <div class="six columns">
-                        <ul class="line-height-one-five">
-                            <li><span class="dotted">180</span> digital editions of historic Jewish
-                                cemeteries</li>
-                            <li><span class="dotted">33.000 inscriptions</span></li>
-                            <li>with 63.000 digital images</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="down-100"><p class="x-small"><a
-                            href="http://steinheim-institut.de/cgi-bin/epidat"
-                            >http://steinheim-institut.de/cgi-bin/epidat</a></p></div>
-            </div>
-            <div class="step">
-                <h2 class="red">Space</h2>
-                <div class="row">
-                    <div class="mfp-lightbox six columns">
-                        <p><a href="resources/img/map.png"><img src="resources/img/map.png"
-                             /></a></p>
-                    </div>
-                    <div class="six columns">
-                        <ul>
-                            <li>Germany [165]</li>
-                            <li>Southern Netherlands [7]</li>
-                            <li>Lithuania [3]</li>
-                            <li>Czechia [5]</li>
-                        </ul>
-                        <p class="x-small"><a
-                                href="http://www.steinheim-institut.de/cgi-bin/epidat?info=map&amp;lang=en"
-                                >http://www.steinheim-institut.de/cgi-bin/epidat?info=map</a></p>
-                    </div>
+                    <p class="right x-small"><a href="http://www.tei-c.org"
+                            >http://www.tei-c.org/release/doc/tei-p5-doc/en/html/</a></p>
                 </div>
             </div>
             <div class="step">
-                <h2 class="red">Time span</h2>
-                <div class="row">
-                    <div class="twelve columns">
-                        <div class="mfp-lightbox">
-                            <p><a href="resources/img/middleages.png"><img
-                                        src="resources/img/middleages.png" /></a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="six columns">
-                        <p>Time span ranges from the 11<sup>th</sup> to the 20<sup>th</sup> century.
-                            Currently 1.100 <span class="dotted">dated</span> inscriptions from the
-                            Middle Ages</p>
-                    </div>
-                    <div class="six columns">
-                        <ul>
-                            <li>שו״ם | Schum:<ul>
-                                    <li>Speyer</li>
-                                    <li>Worms</li>
-                                    <li>Mainz</li>
-                                </ul>
-                            </li>
-                            <li>Frankfurt</li>
-                            <li>…</li>
-                        </ul>
-                    </div>
-                </div>
+                <h2 class="red">example</h2>
+                <p>Something is [...] in the state of Denmark</p>
+                <pre class="substep"><code class="xml">&lt;p&gt;
+ Something is 
+   &lt;damage agent="inkstain"
+           extent="6" 
+           unit="chars"&gt;
+       &lt;supplied cert="high" 
+                 confidence="100" 
+                 reason="damage" 
+                 evidence="external"
+                 resp="editio_princeps"&gt;
+           rotten
+       &lt;/supplied&gt;
+   &lt;/damage&gt; in the state of 
+   &lt;placeName ref="http://vocab.getty.edu/tgn/1000066"&gt;
+       Denmark
+   &lt;/placeName&gt;
+&lt;/p&gt;</code></pre>
+                <blockquote class="centered substep"><span class="red">☞</span> Use of TEI XML is
+                    Close Reading <span class="red">☜</span></blockquote>
             </div>
             <div class="step">
-                <h2 class="red">Languages</h2>
                 <div>
+                    <h2 class="red centered">what is EpiDoc</h2>
+                    <dl class="medium">
+                        <dt class="red">EpiDoc TEI XML</dt>
+                        <dd>Epigraphic Documents in TEI XML</dd>
+                    </dl>
+                    <div class="row down-50">
+                        <div class="four columns">
+                            <div class="mfp-lightbox row">
+                                <a href="resources/img/stoa-org-epidoc-gl-latest-1491223633816.png"
+                                        ><img
+                                        src="resources/img/stoa-org-epidoc-gl-latest-1491223633816.png"
+                                     /></a>
+                            </div>
+                        </div>
+                        <div class="eight columns">
+                            <blockquote class="medium down-50">EpiDoc is <span class="highlight">an
+                                    international, collaborative effort</span> that provides
+                                guidelines and tools for encoding scholarly and educational editions
+                                of ancient documents. It uses a <span class="highlight"
+                                    >subset</span> of the Text Encoding Initiative's standard for
+                                the representation of texts in digital form and was developed
+                                initially for the publication of digital editions of ancient
+                                inscriptions [...]It addresses not only the <span class="highlight"
+                                    >transcription</span> and editorial treatment of texts
+                                themselves, but also the <span class="highlight">history and
+                                    materiality</span> of the objects on which the texts
+                                appear.</blockquote>
+                        </div>
+                        <p class="right x-small">
+                            <a href="https://sourceforge.net/p/epidoc/wiki/Home/"
+                                >https://sourceforge.net/p/epidoc/wiki/Home/</a><br /><a
+                                href="http://www.stoa.org/epidoc/gl/latest/"
+                                >http://www.stoa.org/epidoc/gl/latest/</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="step">
+                <h2 class="red">exampel</h2>
+                <p>XML-paths works both for</p><ul>
+                    <li> IIP,</li>
+                    <li> epidat,</li>
+                    <li> and many other EpiDoc encoded research data</li>
+                </ul>
+                <pre class="xml"><code>&lt;!-- path to edition --&gt;
+/TEI//body//div [@type='edition']
+
+&lt;!-- path to settlement --&gt;
+/TEI/teiHeader/fileDesc/sourceDesc/msDesc/history//settlement</code></pre>
+                <!-- metadata --> /TEI/teiHeader <!-- data --> /TEI/test </div>
+            <div class="step ">
+                <h2 class="red medium">authority files &amp; controlled vocabularies</h2>
+                <div class="row">
+                    <div class="six columns medium">
+                        <h3 class="medium">IIP</h3>
+                        <ul class="line-height-one-five medium">
+                            <li>places – <a href="http://pleiades.stoa.org/places/678401">Pleiades</a> </li>
+                           
+                        </ul>
+                    </div>
+                    <div class="six columns medium">
+                        <h3 class="medium">epidat</h3>
+                        <ul class="line-height-one-five medium">
+                            <li>places – <a href="http://www.getty.edu/vow/TGNServlet?english=Y&amp;find=Frankfurt&amp;place=inhabited+place&amp;page=1&amp;nation="
+                                >Thesaurus of Geographic Names </a>  [TGN]</li>
+                            <li>names – <a href="http://d-nb.info/gnd/11879132X"></a>German National Library Identificators [GND]</li>
+                        </ul>
+                    </div>
                     <div class="row">
-                        <div class="mfp-lightbox six columns">
-                            <p><a href="resources/img/speyer.png"><img
-                                        src="resources/img/speyer.png" /></a></p>
-                        </div>
-                        <div class="six columns"><ul>
-                                <li>Hebrew</li>
-                                <li>German in Hebrew letters (1790<abbr>ff</abbr>)</li>
-                                <li>German (19<sup>th</sup> century)</li>
-                            </ul>
-                            <p class="x-small">example: <br /><a
-                                    href="http://steinheim-institut.de/cgi-bin/epidat?id=spy-6&amp;lang=en"
-                                    >http://steinheim-institut.de/cgi-bin/epidat?id=spy-6</a></p>
-                        </div>
-                    </div></div></div>
-            <div class="step">
-                <div class="row">
-                    <div class="mfp-lightbox six columns">
-                        <a href="resources/img/epidat_access_options.png"><img
-                                src="resources/img/epidat_access_options.png" />
-                        </a>
-                    </div>
-                    <div class="six columns">
-                        <h2 class="centered red">Access to the collections</h2>
-                        <h3>Browse … </h3>
-                        <ol class="line-height-one-five">
-                            <li>chronological </li>
-                            <li>by region</li>
-                            <li>by maps</li>
-                            <li>by index</li>
-                            <li>through the digital images</li>
-                            <li>full-text-search</li>
-                        </ol>
-                        <p class="small centered"><a
-                                href="http://steinheim-institut.de/cgi-bin/epidat?lang=en"
-                                >http://steinheim-institut.de/cgi-bin/epidat</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="step">
-                <h2>numbers</h2>
-                <h4 class="red up-25">Online 2006-2017</h4>
-                <div id="researchdata" style="display:none;">
-                    <a
-                        href="http://www.steinheim-institut.de/cgi-bin/epidat?info=peranno&amp;lang=en">
-                        <img alt="cemeteries and inscriptions" src="resources/img/chart.png"
-                            data-image="resources/img/chart.png"
-                            data-description="Screenshot by Thomas Kollatz, CC-BY 4.0 (http://creativecommons.org/licenses/by/4.0/)"
-                            style="display:none" />
-                    </a>
-                </div>
-            </div>
-            <div class="step">
-                <h2 class="red">Examples</h2>
-                <h3>flowers and shoes</h3>
-            </div>
-            <div class="step">
-                <h2 class="red">Lilies of Worms</h2>
-                <!-- <h3 class="red >Beispiele</h3> -->
-                <h3>A unique floral symbol found "Im Heiligen Sand" – Worms</h3>
-                <div class="mfp-lightbox row">
-                    <table>
-                        <tr>
-                            <td>
-                                <a href="resources/img/lilie_1218_wrm-103.png" title="wrm-103"><img
-                                        src="resources/img/lilie_1218_wrm-103.png" /></a>
-                            </td>
-                            <td>
-                                <a href="resources/img/lilie_before_1290_wrm-423.png"
-                                    title="wrm-423"><img
-                                        src="resources/img/lilie_before_1290_wrm-423.png" /></a>
-                            </td>
-                            <td>
-                                <a href="resources/img/lilie_1296_wrm-999.png" title="wrm-999"><img
-                                        src="resources/img/lilie_1296_wrm-999.png" /></a>
-                            </td>
-                            <td>
-                                <a href="resources/img/lilie_1320_wrm-1090.png" title="wrm-1090"
-                                        ><img src="resources/img/lilie_1320_wrm-1090.png" /></a>
-                            </td>
-                            <td>
-                                <a href="resources/img/lilie_1492_wrm-692.png" title="wrm-692"><img
-                                        src="resources/img/lilie_1492_wrm-692.png" /></a>
-                            </td>
-                            <td>
-                                <a href="resources/img/lilie_1493_wrm-778.png" title="wrm-778"><img
-                                        src="resources/img/lilie_1493_wrm-778.png" /></a>
-                            </td>
+                        <h3 class="centered medium">work in progress – physical form | symbols |
+                            material</h3>
+                        <ul class="line-height-one-five medium">
 
-                        </tr>
-                    </table>
-                </div>
-                <table>
-                    <tr>
-                        <td>1218</td>
-                        <td>vor 1290</td>
+                            <li><a
+                                href="http://www.getty.edu/vow/AATFullDisplay?find=shoe&amp;logic=AND&amp;note=&amp;subjectid=300046065"
+                                >Arts and
+                                    Architecture Thesaurus</a>
+                                <q>to improve access to information about art, architecture, and material
+                                    culture</q> [AAT] </li>
+                            <li><a
+                                href="http://www.getty.edu/research/tools/vocabularies/aat/about.html"
+                                >Iconclass</a>
+                                <q>a multilingual classification system for cultural content</q></li>
+                            <li><a href="https://www.eagle-network.eu/resources/vocabularies/">EAGLE</a> vocabularies</li>
 
-                        <td>1296</td>
-                        <td>1320</td>
-
-                        <td>1492</td>
-                        <td>1493</td>
-                    </tr>
-                    <tr class="small">
-                        <td><a href="http://steinheim-institut.de/cgi-bin/epidat?id=wrm-103"
-                                >wrm-103</a></td>
-                        <td><a href="http://steinheim-institut.de/cgi-bin/epidat?id=wrm-423"
-                                >wrm-423</a></td>
-
-                        <td><a href="http://steinheim-institut.de/cgi-bin/epidat?id=wrm-999"
-                                >wrm-999</a></td>
-                        <td><a href="http://steinheim-institut.de/cgi-bin/epidat?id=ffb-1090"
-                                >wrm-1090</a></td>
-
-                        <td><a href="http://steinheim-institut.de/cgi-bin/epidat?id=wrm-692"
-                                >wrm-692</a></td>
-                        <td><a href="http://steinheim-institut.de/cgi-bin/epidat?id=wrm-778"
-                                >wrm-778</a></td>
-                    </tr>
-
-                    <tr class="x-small">
-                        <td>Schlomo ben Natan</td>
-                        <td>Channa bat Jehuda</td>
-
-                        <td>Juta bat Josef</td>
-                        <td>Meir ben Elieser</td>
-
-                        <td>Jachet bat Ascher Halevi</td>
-                        <td>Dolza bat Schmuel</td>
-                    </tr>
-                </table>
-                <!-- 
-                <blockquote class="substep down-50 centered">… and displaying 200 years of
-                    shoe-design engraved in headstones</blockquote>
-                    -->
-            </div>
-            <div class="step"><h2 class="red">Lilies of Worms</h2>
-                <div class="row">
-                    <div class="mfp-lightbox six columns">
-                        <a href="resources/img/lilies_Geo-Browser.png"><img
-                                src="resources/img/lilies_Geo-Browser.png" /></a>
-                    </div>
-                    <div class="six columns">
-                        <p class="line-height-one-five"> spatio-temporal vizualized in the <a
-                                href="">DARIAH-DE Geo-Browser</a>
-                            <!-- spatio-temporal data-visualization of
-                            symbols found on Jewish headstones via <a href="">DARIAH-DE
-                                Geo-Browser</a> (embedded) -->
-                        </p>
-                        <ul>
-                            <li>place</li>
-                            <li>date</li>
-                            <li>symbol</li>
-                            <li>name</li>
                         </ul>
-                        <p class="x-small"> Michael Brocke: The lilies of Worms. In: Zutot 8 (2011),
-                            3-13 <br /><a
-                                href="http://steinheim-institut.de/cgi-bin/epidat?info=geobrowser&amp;lang=en"
-                                >http://steinheim-institut.de/cgi-bin/epidat?info=geobrowser&amp;lang=en</a>
-                        </p>
                     </div>
-                </div></div>
-            <div class="step">
-                <h2 class="red">Shoes of Frankfurt</h2>
-                <!-- <h3 class="red >Beispiele</h3> -->
-                <h3>A Frankfurt house emblem becoming a familyname</h3>
-                <div class="mfp-lightbox row">
-                    <table>
-                        <tr>
-                            <td>
-                                <a href="resources/img/shoe_ffb-444.png" title="ffb-444"><img
-                                        src="resources/img/shoe_ffb-444.png" /></a>
-                            </td>
-                            <td>
-                                <a href="resources/img/shoe_ffb-2057.png" title="ffb-2057"><img
-                                        src="resources/img/shoe_ffb-2057.png" /></a>
-                            </td>
-                            <td>
-                                <a href="resources/img/shoe_ffb-55.png" title="ffb-55"><img
-                                        src="resources/img/shoe_ffb-55.png" /></a>
-                            </td>
-                            <td>
-                                <a href="resources/img/shoe_ffb-1584.png" title="ffb-1584"><img
-                                        src="resources/img/shoe_ffb-1584.png" /></a>
-                            </td>
-                            <td>
-                                <a href="resources/img/shoe_ffb-52.png" title="ffb-52"><img
-                                        src="resources/img/shoe_ffb-52.png" /></a>
-                            </td>
-                            <td>
-                                <a href="resources/img/shoe_ffb-1678.png" title="ffb-1678"><img
-                                        src="resources/img/shoe_ffb-1678.png" /></a>
-                            </td>
-                        </tr>
-                    </table>
                 </div>
-                <table>
-                    <tr>
-                        <td>1607</td>
-                        <td>1612</td>
-
-                        <td>1774</td>
-                        <td>1782</td>
-
-                        <td>1795</td>
-                        <td>1805</td>
-                    </tr>
-                    <tr class="small">
-                        <td><a href="http://steinheim-institut.de/cgi-bin/epidat?id=ffb-444"
-                                >ffb-444</a></td>
-                        <td><a href="http://steinheim-institut.de/cgi-bin/epidat?id=ffb-2057"
-                                >ffb-2057</a></td>
-
-                        <td><a href="http://steinheim-institut.de/cgi-bin/epidat?id=ffb-55"
-                                >ffb-55</a></td>
-                        <td><a href="http://steinheim-institut.de/cgi-bin/epidat?id=ffb-1584"
-                                >ffb-1584</a></td>
-
-                        <td><a href="http://steinheim-institut.de/cgi-bin/epidat?id=ffb-52"
-                                >ffb-52</a></td>
-                        <td><a href="http://steinheim-institut.de/cgi-bin/epidat?id=ffb-1678"
-                                >ffb-1678</a></td>
-                    </tr>
-
-                    <tr class="x-small">
-                        <td>Schlomo Schuh Grotwol</td>
-                        <td>Breinlen bat Schlomo</td>
-
-                        <td>Joswel ben Schlomo Schuh</td>
-                        <td>Schönle bat David Rapp</td>
-
-                        <td>Breinche bat Süskind Leidersdorf</td>
-                        <td>Gitle bat Izek ben Jaakow Hanau SeGaL</td>
-                    </tr>
-                </table>
-                <blockquote class="substep down-50 centered">… and displaying 200 years of
-                    shoe-design engraved in headstones</blockquote>
+                <blockquote class="down-50"> By using controlled vocabularies specific findings are
+                    related to unique identifiers, which function so to speak as kind of digital
+                    shelf mark </blockquote>
             </div>
             <div class="step">
-                <div class="centered">
-                    <h2 class="red">challenge</h2>
-                    <blockquote class="down-50">Symbols, ornaments, decoration found on Jewish
-                        headstones as well as biblical quotations in the epitaphs or the materials
-                        of the headstones or the type of script used are not strictly limited to
-                        Jewish cultural life. <ul
-                            class="substep line-height-one-five down-50 justify">
-                            <li>How to disseminate more or less accidental spinoff-results of this
-                                sort? How to make known those <em>facts</em> to neighboured
-                                knowledge sectors?</li>
-                        </ul>
-                    </blockquote>
-                </div>
-            </div>
-            <div class="step">
-                <h2 class="red">step 1: licence</h2>
-                <h3><span class="red">☞</span> Use free and open licences</h3>
-                <ul class="line-height-one-five">
-                    <li>epidat research data are released online under an open Creative Commons
-                        Licence <a href="http://creativecommons.org/licences/by/4.0"><img
-                                src="resources/img/cc.png" style="width:10%;height:10%" /></a></li>
-                </ul>
-                <blockquote>research data should be provided under an open and free
-                    licence.</blockquote>
-            </div>
-            <div class="step">
-                <h2 class="red">step 2: interoperability</h2>
-                <h3><span class="red">☞ </span> provide your data according to a <span
-                        class="dotted">standard format</span><br /><span class="red">☞ </span> make
-                    them available via an <span class="dotted">interface</span></h3>
-                <ul class="line-height-one-five">
-                    <li>epidat data are encoded in <code>html</code> a format for <span
-                            class="dotted">readers</span>, which provides our epigraphical research
-                        data by the means of webdesign, typography in a structured form</li>
-                    <li>epidat data are also provided for <span class="dotted">users</span> in
-                            <code>EpiDoc: TEI XML for Epigraphic Documents</code>, which provides
-                        research data in a machine readable, structured data format, which is widely
-                        used by (digital) epigraphers</li>
-                </ul>
-            </div>
-            <div class="step"><h2 class="red">☞ rule</h2>
-                <blockquote>research data should be provided <ul>
-                        <li>in a <em>machine readable</em> format</li>
-                        <li>in a <em>system-independent</em> format</li>
-                        <li>in a <em>program-independent</em> documented standard format</li>
-                        <li>via <em>interfaces</em></li>
-                    </ul></blockquote>
-            </div>
-            <div class="step">
-                <h2 class="red">TEI XML </h2>
-                <blockquote class="medium">The Text Encoding Initiative (TEI) is a consortium which
-                    collectively develops and maintains a standard for the representation of texts
-                    in digital form. Its chief deliverable is a set of Guidelines which specify
-                    encoding methods for machine-readable texts …</blockquote>
-                <p class="right x-small">see: <a href="http://www.tei-c.org"
-                        >http://www.tei-c.org</a></p>
-            </div>
-            <div class="step">
-                <h2 class="red"> Epigraphic Documents in TEI XML </h2><blockquote class="medium"
-                        ><code>EpiDoc</code> is an international, collaborative effort that provides
-                    guidelines and tools for encoding scholarly and educational editions of ancient
-                    documents. It uses a subset of the Text Encoding Initiative's standard for the
-                    representation of texts in digital form and was developed initially for the
-                    publication of digital editions of ancient inscriptions</blockquote>
+                <h2 class="red">example</h2>
                 <pre><code class="linenumbers js">&lt;!-- person --&gt;
 &lt;profileDesc&gt;
  &lt;particDesc&gt;
@@ -590,38 +594,40 @@
  &lt;/langUsage&gt;
  &lt;/profileDesc&gt;
 </code></pre>
-                <p class="right small">see: <a href="https://sourceforge.net/p/epidoc/wiki/Home/"
-                        >https://sourceforge.net/p/epidoc/wiki/Home/</a></p>
+                <p class="right small">
+                    <a href="http://steinheim-institut.de/cgi-bin/epidat?id=ffb-80-teip5"
+                        >http://steinheim-institut.de/cgi-bin/epidat?id=ffb-80-teip5</a></p>
+            </div>
+            <div class="step"><h2 class="red medium">Good preconditions for Linked Open Data</h2>
+                <blockquote>IIP and epidat provide research data <ul class="line-height-one-five">
+                        <li>machine readable </li>
+                        <li>system-independent </li>
+                        <li>in a program-independent documented standard format</li>
+                        <li>via interfaces</li>
+                        <li>under an open licence</li>
+                    </ul></blockquote>
             </div>
             <div class="step">
-                <h2 class="red">step 3: Controlled vocabularies </h2>
-                <h3><span class="red">☞</span> Use Thesauri and Authority files</h3>
-                <ul class="line-height-one-five medium">
-                    <li>the <a href="http://www.iconclass.org/rkd/25G41%28LILY%29/">symbol
-                                <em>Lilie</em></a> can be traced in <a
-                            href="http://www.getty.edu/research/tools/vocabularies/aat/about.html"
-                            >Iconclass</a>
-                        <q>a multilingual classification system for cultural content</q>
-                    </li>
-                    <li>the <a
-                            href="http://www.getty.edu/vow/AATFullDisplay?find=shoe&amp;logic=AND&amp;note=&amp;subjectid=300046065"
-                            >object or concept <em>shoe</em></a> is found in <a href="">Arts and
-                            Architecture Thesaurus</a>
-                        <q>to improve access to information about art, architecture, and material
-                            culture</q>
-                    </li>
-                    <li>the settlement <a
-                            href="http://www.getty.edu/vow/TGNServlet?english=Y&amp;find=Frankfurt&amp;place=inhabited+place&amp;page=1&amp;nation="
-                                ><em>Frankfurt</em> on the Main</a> is identified in the <a href=""
-                            >Thesaurus of Geographic Names </a> and by this distinguished from two
-                        other German towns named Frankfurt </li>
-                    <li><a href="http://d-nb.info/gnd/11879132X">names of persons</a> have unique
-                        identifiers in the GND-database of the German National Library and other
-                        National Library catalogues</li>
-                </ul>
+                <h2 class="red">03</h2>
+                <h3>linked open data</h3>
             </div>
             <div class="step">
-                <h2 class="red">Linked Open Data – simple</h2>
+                <h2 class="red">Explicit Semantics</h2>
+                
+                <pre>
+                    <code class="xml x-small">                             
+                 
+Subject    &lt;http://steinheim-institut.de/cgi-bin/epidat?id=ffb-80-1&gt; 
+             
+Predicate  <span class="highlight">sameas</span> 
+                        
+Object     &lt;http://d-nb.info/gnd/11879132X&gt; 
+
+.</code></pre>
+                <blockquote class="down-50">definition LOD ###</blockquote>
+            </div>
+            <div class="step">
+                <h2 class="red">Linked Open Data – in practice</h2>
                 <div class="row">
                     <div class="six columns">
                         <div class="mfp-lightbox ">
@@ -636,16 +642,16 @@
                                     >http://steinheim-institut.de/daten/beacon.txt</a></p>
                         </div></div>
                     <div class="six columns">
-                        <h3>Beacon</h3>
                         <div>
                             <p class="line-height-one-five small"> Only by providing the
                                 GND-Identification-number more information about the person in
-                                question is on the fly dynamically provided by automatically
-                                harvesting other online databases based on the GND-ID
+                                question is <code>on the fly</code> dynamically provided by
+                                automatically harvesting other online databases based on the GND-ID
                                     <code>11879132X</code></p>
                             <ul class="line-height-one-five small">
                                 <li>easy</li>
                                 <li>effective</li>
+                                <li>inspiring new | further research</li>
                             </ul>
                         </div><div class="mfp-lightbox"><p><a
                                     href="resources/img/linked_sources.png"><img
@@ -653,8 +659,32 @@
                     </div></div>
             </div>
             <div class="step">
-                <h2 class="red">Linked Open Data – advanced</h2><!-- A generic webservice to extract RDF statements from XML resources. -->
-                <ul>
+                <h2 class="red">###</h2>
+                <h3><span class="substep red">How to</span> dis<code class="substep"
+                    >|un|</code>cover the unexpected <span class="substep">?</span></h3>
+            </div>
+            <div class="step">
+                <div class="centered">
+                    <h2 class="red">challenge</h2>
+                    <blockquote class="down-50">Names, Persons, Symbols, ornaments, decoration found on Jewish
+                        headstones as well as biblical quotations in the epitaphs or the materials
+                        of the headstones or the type of script used are not strictly limited to 
+                        Jewish cultural life. Moreover they <em>make sense</em> outside the <q>discipline</q> of epigraphy<ul
+                            class="substep line-height-one-five down-50 justify">
+                            <li>How to disseminate <q>more or less</q> accidental spinoff-results of this
+                                sort? How to make known those <em>facts</em> to neighbouring
+                                knowledge sectors (cultural studies, art, and literature)?</li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+           
+           
+            
+            <div class="step">
+                <h2 class="red">Linked Open Data </h2><!-- A generic webservice to extract RDF statements from XML resources. -->
+                 <h3>Modelling – EpiDoc to CidocCRM</h3><ul>
+                   
                     <li>From <code>EpiDoc – TEI XML</code>
                     </li>
                     <li>via <code>xTripels webservice</code></li>
@@ -935,70 +965,7 @@
                     </div>
                 </div>
             </div>
-            <!-- table 
-            <div class="step">
-                <div>
-                    <table class="small">
-                        <thead>
-                            <tr>
-                                <th>object</th>
-                                <th>name</th>
-                                <th>description</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><img src="resources/img/shoe_ffb-1584.png" style="width:5rem"
-                                     /></td>
-                                <td>Schuh</td>
-                                <td>Hauszeichen</td>
-                            </tr>
-                            <tr>
-                                <td><img src="resources/img/shoe_ffb-1678.png" style="width:5rem"
-                                     /></td>
-                                <td>Schuh</td>
-                                <td>Hauszeichen</td>
-                            </tr>
-                            <tr>
-                                <td><img src="resources/img/shoe_ffb-2057.png" style="width:5rem"
-                                     /></td>
-                                <td>Schuh</td>
-                                <td>Hauszeichen</td>
-                            </tr>
-                            <tr>
-                                <td><img src="resources/img/shoe_ffb-444.png" style="width:5rem"
-                                     /></td>
-                                <td>Schuh</td>
-                                <td>Hauszeichen</td>
-                            </tr>
-                            <tr>
-                                <td><img src="resources/img/shoe_ffb-52.png" style="width:5rem"
-                                     /></td>
-                                <td>Schuh</td>
-                                <td>Hauszeichen</td>
-                            </tr>
-                            <tr>
-                                <td><img src="resources/img/shoe_ffb-55.png" style="width:20%"
-                                     /></td>
-                                <td>Schuh</td>
-                                <td>Hauszeichen</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            -->
-            <div class="step">
-                <div class="row">
-                    <div class="six columns">
-                        <img src="resources/img/IIP_search.png" style="width:25rem;" />
-                        <p class="x-small"><a
-                                href="http://library.brown.edu/search/solr_pub/iip/?q=*%3A*&amp;start=0&amp;rows=0&amp;indent=on&amp;facet=on&amp;facet.field=religion&amp;wt=json"
-                                >http://library.brown.edu/search/solr_pub/iip/?q=*%3A*&amp;start=0&amp;rows=0&amp;indent=on&amp;facet=on&amp;facet.field=religion&amp;wt=json</a></p>
-                    </div>
-                    <div class="six columns"> </div>
-                </div>
-            </div>
+            
             <div class="step">
                 <div class="mfp-lightbox twelve columns">
                     <p>
@@ -1017,7 +984,7 @@
                 </div>
             </div>
             <div class="step">
-                <h2>Literature</h2>
+                <h2 class="red">Literature</h2>
                 <h4>Databases</h4>
                 <ul class="small line-height-one-five">
                     <li> Inscriptions of Israel/Palestine <a
